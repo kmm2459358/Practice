@@ -21,11 +21,11 @@ int main()
 int MinOfFour(int a, int b, int c, int d)
 {
 	int min = a;
-	if (a > b)
+	if (min > b)
 		min = b;
-	if (b > c)
+	if (min > c)
 		min = c;
-	if (c > d)
+	if (min > d)
 		min = d;
 
 	return min;
