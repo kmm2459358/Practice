@@ -21,11 +21,11 @@ int main()
 int MaxOfFour(int a, int b, int c, int d)
 {
 	int max = a;
-	if (a < b)
+	if (max < b)
 		max = b;
-	if (b < c)
+	if (max < c)
 		max = c;
-	if (c < d)
+	if (max < d)
 		max = d;
 
 	return max;
