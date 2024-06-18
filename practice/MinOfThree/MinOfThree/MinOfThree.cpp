@@ -20,9 +20,9 @@ int main()
 int MinOfThree(int a, int b, int c)
 {
 	int min = a;
-	if (a > b)
+	if (min > b)
 		min = b;
-	if (b > c)
+	if (min > c)
 		min = c;
 
 	return min;
