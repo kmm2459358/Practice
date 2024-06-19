@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearch_Library_Struct", "BinarySearch_Library_Struct\BinarySearch_Library_Struct.vcxproj", "{A67EE904-2201-4556-BE55-200717FB090F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A67EE904-2201-4556-BE55-200717FB090F}.Debug|x64.ActiveCfg = Debug|x64
+		{A67EE904-2201-4556-BE55-200717FB090F}.Debug|x64.Build.0 = Debug|x64
+		{A67EE904-2201-4556-BE55-200717FB090F}.Debug|x86.ActiveCfg = Debug|Win32
+		{A67EE904-2201-4556-BE55-200717FB090F}.Debug|x86.Build.0 = Debug|Win32
+		{A67EE904-2201-4556-BE55-200717FB090F}.Release|x64.ActiveCfg = Release|x64
+		{A67EE904-2201-4556-BE55-200717FB090F}.Release|x64.Build.0 = Release|x64
+		{A67EE904-2201-4556-BE55-200717FB090F}.Release|x86.ActiveCfg = Release|Win32
+		{A67EE904-2201-4556-BE55-200717FB090F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D96BFDF-802A-4A9E-91D6-8C491B73320A}
+	EndGlobalSection
+EndGlobal
