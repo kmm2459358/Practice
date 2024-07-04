@@ -31,5 +31,38 @@ int main()
 
 int card_convert(char* buff, int num, int radix)
 {
-    for(int i = 0; i < buff; i++)
+    //int i = 0;
+    //char dchar[] = "0123456789ABCDEFGHIJKLNMOPQRSTUVWXYZ";
+
+    //do {
+        //printf(" %2d| %5d   ...  %d\n+ ---------- \n", radix, num, num % radix);
+        //num = num / radix;
+        //buff[i] = dchar[num % radix];
+        //i++;
+    //} while (radix < num);
+
+    //buff[i + 1] = '\0';
+
+    //printf("%s\n",buff);
+
+    //return 0;
+    char dchar[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int digits = 0;
+    if (num == 0) {
+        buff[digits++] = dchar[0];
+    }
+    else
+    {
+        while (num != 0) {
+            printf(" %2d| %5d   ...  %d\n+ ---------- \n", radix, num, num % radix);
+            buff[digits++] = dchar[num % radix];
+            num /= radix;
+        }
+        printf("         0\n");
+    }
+    for (int i = 0; i < digits / 2; i++) {
+        SWAP(char, buff[i], buff[digits - 1 - i]);
+    }
+    buff[digits] = '\0';
+    return digits;
 }
